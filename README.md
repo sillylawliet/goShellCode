@@ -26,3 +26,8 @@ upx.exe -9 -q -o zip.exe main.exe
 拷贝stager.bs64中的内容到aes/base64Code.txt
 
 然后执行bat，生成main.exe，免杀效果还行
+
+
+aes加密部分来自
+
+https://github.com/HZzz2/go-shellcode-loader
